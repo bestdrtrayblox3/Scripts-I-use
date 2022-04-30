@@ -121,7 +121,6 @@ OrionLib:MakeNotification({
 	Time = 5
 })      		
 print("ur gay")
-})
 
   	end    
 })
