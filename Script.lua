@@ -112,9 +112,13 @@ end
   	end    
 })
 Tab:AddButton({
-	Name = "Button!",
+	Name = "Press this",
 	Callback = function()
-      		print("button pressed")
+      	OrionLib:MakeNotification({
+	Name = "Title!",
+	Content = "Press this if you're gay- wait you already pressed it?",
+	Image = "rbxassetid://6510491739",
+	Time = 5
   	end    
 })
 local Tab = Window:MakeTab({
