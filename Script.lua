@@ -111,9 +111,15 @@ v:Disable()
 end
   	end    
 })
+Tab:AddButton({
+	Name = "Button!",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
 local Tab = Window:MakeTab({
 	Name = "Scripts for creator",
-	Icon = "rbxassetid://6510491739",
+	Icon = "rbxassetid:6510491739",
 	PremiumOnly = false
 })
 Tab:AddButton({
