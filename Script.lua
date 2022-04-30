@@ -112,14 +112,15 @@ end
   	end    
 })
 Tab:AddButton({
-	Name = "Press for a 10% chance to disable FE (Yes, you can press it 10 times to disable it)",
+	Name = "Click me!",
 	Callback = function()
-      		print("ur gay")
 OrionLib:MakeNotification({
 	Name = "Title!",
-	Content = "Press if you're gay- wait you already pressed it? (check console/press f9)",
-	Image = "rbxassetid://6510491739",
+	Content = "Press f9  and disable everything except output.",
+	Image = "rbxassetid://4483345998",
 	Time = 5
+})      		
+print("ur gay")
 })
 
   	end    
