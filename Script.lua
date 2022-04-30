@@ -112,15 +112,18 @@ end
   	end    
 })
 Tab:AddButton({
-	Name = "Press this",
+	Name = "Button!",
 	Callback = function()
+      		print("ur gay")
 OrionLib:MakeNotification({
 	Name = "Title!",
-	Content = "Press this if you're gay- wait you already pressed it?",
-	Image = "rbxassetid://6510491739",
+	Content = "Press if you're gay- wait you already pressed it?",
+	Image = "rbxassetid://4483345998",
 	Time = 5
-  	end 
-})				
+})
+
+  	end    
+})
 local Tab = Window:MakeTab({
 	Name = "Scripts for creator",
 	Icon = "rbxassetid://6510491739",
