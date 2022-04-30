@@ -117,5 +117,36 @@ Tab:AddButton({
       		print("button pressed")
   	end    
 })
+local Tab = Window:MakeTab({
+	Name = "Scripts for creator",
+	Icon = "rbxassetid:6510491739",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Get stop signs rate my avatar",
+	Callback = function()
+      	while true do
+wait (0)
+local args = {
+    [1] = 17290248
+}
+
+game:GetService("ReplicatedStorage").RequestGamepassTool:FireServer(unpack(args))
+end
+  	end    
+})
+Tab:AddButton({
+	Name = "Get swords rate my avatar",
+	Callback = function()
+      	while true do
+wait (0) 
+local args = {
+    [1] = "ClassicSword"
+}
+
+game:GetService("ReplicatedStorage").RequestTool:FireServer(unpack(args))
+end
+  	end    
+})
 OrionLib:Destroy()
 OrionLib:Init()
