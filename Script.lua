@@ -111,19 +111,6 @@ v:Disable()
 end
   	end    
 })
-Tab:AddButton({
-	Name = "Click me!",
-	Callback = function()
-OrionLib:MakeNotification({
-	Name = "Title!",
-	Content = "Press f9  and disable everything except output.",
-	Image = "rbxassetid://4483345998",
-	Time = 5
-})      		
-print("ur gay")
-
-  	end    
-})
 local Tab = Window:MakeTab({
 	Name = "Scripts for creator",
 	Icon = "rbxassetid://6510491739",
