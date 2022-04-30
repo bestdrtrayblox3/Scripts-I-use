@@ -119,7 +119,8 @@ OrionLib:MakeNotification({
 	Content = "Press this if you're gay- wait you already pressed it?",
 	Image = "rbxassetid://6510491739",
 	Time = 5
-  	end  
+  	end 
+})				
 local Tab = Window:MakeTab({
 	Name = "Scripts for creator",
 	Icon = "rbxassetid://6510491739",
