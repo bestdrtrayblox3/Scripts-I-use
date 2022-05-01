@@ -175,5 +175,22 @@ Tab:AddButton({
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/WarriorCrystal/WarriorHub/main/Load.lua"))()
   	end    
 })
+local Tab = Window:MakeTab({
+	Name = "Bedwars",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Vape V4",
+	Callback = function()
+      	OrionLib:MakeNotification({
+	Name = "balls",
+	Content = "Loading Vape...",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+  	end    
+})
 OrionLib:Destroy()
 OrionLib:Init()
