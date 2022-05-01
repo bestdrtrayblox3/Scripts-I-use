@@ -112,9 +112,9 @@ end
   	end    
 })
 Tab:AddButton({
-	Name = "Button!",
+	Name = "Press f9, and turn off everything except output after clicking this.",
 	Callback = function()
-      		print("button pressed")
+      		print("ur gay")
   	end    
 })
 local Tab = Window:MakeTab({
