@@ -184,17 +184,6 @@ Tab:AddButton({
       	loadstring(game:HttpGet("https://raw.githubusercontent.com/typical-overk1ll/scripts/main/RateMyAvatarRickRoll", true))()
   	end    
 })
-Tab:AddButton({
-	Name = "Rate everyone 1",
-	Callback = function()
-  	for i,v in pairs(game.Players:GetPlayers()) do
-   if v.Name ~= game.Players.LocalPlayer.Name then
-       game:GetService("ReplicatedStorage").PostRating:FireServer(v, 1)
-   end
-end
-  	end    
-})
-
 local Tab = Window:MakeTab({
 	Name = "Booga Booga",
 	Icon = "rbxassetid://4483345998",
@@ -240,6 +229,5 @@ Tab:AddButton({
       	loadstring(game:HttpGet("https://gist.githubusercontent.com/TurkOyuncu99/bb2f1182a224999682a2d1a87aa8517a/raw/66c7791224be0434b23938ca26244238649d0143/ameicaa", true))()
   	end    
 })
-
 OrionLib:Destroy()
 OrionLib:Init()
