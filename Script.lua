@@ -164,7 +164,7 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 Tab:AddButton({
-	Name = "Warrior Hub",
+	Name = "Warrior Hub (Can be universal and probably has other games)",
 	Callback = function()
       	OrionLib:MakeNotification({
 	Name = "Butter's Gui",
