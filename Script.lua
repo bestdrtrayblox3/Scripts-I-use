@@ -158,5 +158,22 @@ Tab:AddButton({
 game:GetService("ReplicatedStorage").RequestGamepassTool:FireServer(unpack(args))
   	end    
 })
+local Tab = Window:MakeTab({
+	Name = "Booga Booga",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Warrior Hub",
+	Callback = function()
+      	OrionLib:MakeNotification({
+	Name = "Butter's Gui",
+	Content = "Loading Warrior Hub!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/WarriorCrystal/WarriorHub/main/Load.lua"))()
+  	end    
+})
 OrionLib:Destroy()
 OrionLib:Init()
