@@ -158,6 +158,19 @@ Tab:AddButton({
 game:GetService("ReplicatedStorage").RequestGamepassTool:FireServer(unpack(args))
   	end    
 })
+Tab:AddButton({
+	Name = "Get Image Signs",
+	Callback = function()
+      	while true do
+wait(0)
+local args = {
+    [1] = 17291427
+}
+
+game:GetService("ReplicatedStorage").RequestGamepassTool:FireServer(unpack(args))
+end 
+  	end    
+})
 local Tab = Window:MakeTab({
 	Name = "Booga Booga",
 	Icon = "rbxassetid://4483345998",
