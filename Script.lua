@@ -157,8 +157,7 @@ Tab:AddButton({
 }
 
 game:GetService("ReplicatedStorage").RequestGamepassTool:FireServer(unpack(args))
-  	end   
-		end
+  	end    
 })
 Tab:AddButton({
 	Name = "Get Image Signs (NEED GAMEPASS)",
@@ -171,6 +170,22 @@ local args = {
 
 game:GetService("ReplicatedStorage").RequestGamepassTool:FireServer(unpack(args))
 end 
+  	end    
+})
+Tab:AddButton({
+	Name = "Rick Roll booth",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/typical-overk1ll/scripts/main/RateMyAvatarRickRoll", true))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Rate everyone 1",
+	Callback = function()
+      	for i,v in pairs(game.Players:GetPlayers()) do
+   if v.Name ~= game.Players.LocalPlayer.Name then
+       game:GetService("ReplicatedStorage").PostRating:FireServer(v, 1)
+   end
+end
   	end    
 })
 local Tab = Window:MakeTab({
