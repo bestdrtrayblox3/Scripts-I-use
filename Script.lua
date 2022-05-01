@@ -173,12 +173,6 @@ game:GetService("ReplicatedStorage").RequestGamepassTool:FireServer(unpack(args)
 end 
   	end    
 })
-Tab:AddButton({
-	Name = "Rick Roll booth",
-	Callback = function()
-      	loadstring(game:HttpGet("https://raw.githubusercontent.com/typical-overk1ll/scripts/main/RateMyAvatarRickRoll", true))()
-  	end    
-})
 local Tab = Window:MakeTab({
 	Name = "Booga Booga",
 	Icon = "rbxassetid://4483345998",
