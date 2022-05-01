@@ -118,8 +118,8 @@ Tab:AddButton({
   	end    
 })
 local Tab = Window:MakeTab({
-	Name = "Scripts for creator",
-	Icon = "rbxassetid:6510491739",
+	Name = "Rate my avatar",
+	Icon = "rbxassetid://6510491739",
 	PremiumOnly = false
 })
 Tab:AddButton({
@@ -146,6 +146,16 @@ local args = {
 
 game:GetService("ReplicatedStorage").RequestTool:FireServer(unpack(args))
 end
+  	end    
+})
+Tab:AddButton({
+	Name = "Get text signs",
+	Callback = function()
+      	local args = {
+    [1] = 17291420
+}
+
+game:GetService("ReplicatedStorage").RequestGamepassTool:FireServer(unpack(args))
   	end    
 })
 OrionLib:Destroy()
