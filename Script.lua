@@ -157,7 +157,8 @@ Tab:AddButton({
 }
 
 game:GetService("ReplicatedStorage").RequestGamepassTool:FireServer(unpack(args))
-  	end    
+  	end   
+		end
 })
 Tab:AddButton({
 	Name = "Get Image Signs (NEED GAMEPASS)",
