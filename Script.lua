@@ -180,7 +180,10 @@ Tab:AddToggle({
 	Name = "Loop respawn (for kill or bring-like commands)",
 	Default = false,
 	Callback = function(Value)
-	game:GetService("ReplicatedStorage").RequestRespawn:FireServer()
+	while true do
+				wait(0.4)
+			game:GetService("ReplicatedStorage").RequestRespawn:FireServer()
+				end
 	end    
 })
 local Tab = Window:MakeTab({
