@@ -181,9 +181,9 @@ Tab:AddToggle({
 	Default = false,
 	Callback = function(Value)
 	while true do
-				wait(0.4)
-			game:GetService("ReplicatedStorage").RequestRespawn:FireServer()
-				end
+	wait(0.4)
+	game:GetService("ReplicatedStorage").RequestRespawn:FireServer()
+	end
 	end    
 })
 local Tab = Window:MakeTab({
