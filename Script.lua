@@ -216,7 +216,7 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 local Tab = Window:MakeTab({
-	Name = "Mostly Universal",
+	Name = "Ragdoll Engine",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
