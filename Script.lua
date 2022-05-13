@@ -215,5 +215,16 @@ local Tab = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
+local Tab = Window:MakeTab({
+	Name = "Mostly Universal",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Cryptonic Hub (also is for da hood)",
+	Callback = function()
+      	loadstring(game:HttpGet('https://raw.githubusercontent.com/martinelcrac/cryptonichub/main/Ragdollengine.lua'))()
+  	end    
+})
 OrionLib:Destroy()
 OrionLib:Init()
