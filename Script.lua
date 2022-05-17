@@ -176,6 +176,12 @@ Tab:AddButton({
 end
   	end    
 })
+Tab:AddButton({
+	Name = "RMA hub",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/tresks/RAS/main/Rate%20My%20Shitter.lua"))()
+  	end    
+})
 local Tab = Window:MakeTab({
 	Name = "Booga Booga",
 	Icon = "rbxassetid://4483345998",
