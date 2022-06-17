@@ -188,9 +188,9 @@ Tab:AddToggle({
 	Callback = function(Value)
 	while true do
 	wait(0)
-			game:GetService("ReplicatedStorage").RequestRespawn:FireServer()
+	game:GetService("ReplicatedStorage").RequestRespawn:FireServer()
 	end    
-			end
+end
 })
 local Tab = Window:MakeTab({
 	Name = "Booga Booga",
