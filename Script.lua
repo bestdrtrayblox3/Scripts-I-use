@@ -186,11 +186,9 @@ Tab:AddToggle({
 	Name = "Loop respawn",
 	Default = false,
 	Callback = function(Value)
-	while true do
-	wait(0)
 	game:GetService("ReplicatedStorage").RequestRespawn:FireServer()
 	end    
-end
+	end
 })
 local Tab = Window:MakeTab({
 	Name = "Booga Booga",
