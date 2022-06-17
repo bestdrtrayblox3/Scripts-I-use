@@ -182,6 +182,16 @@ Tab:AddButton({
       	loadstring(game:HttpGet("https://raw.githubusercontent.com/tresks/RAS/main/Rate%20My%20Shitter.lua"))()
   	end    
 })
+Tab:AddToggle({
+	Name = "Loop respawn",
+	Default = false,
+	Callback = function(Value)
+	while true do
+	wait(0)
+			game:GetService("ReplicatedStorage").RequestRespawn:FireServer()
+	end    
+			end
+})
 local Tab = Window:MakeTab({
 	Name = "Booga Booga",
 	Icon = "rbxassetid://4483345998",
