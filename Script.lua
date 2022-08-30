@@ -26,6 +26,7 @@ Tab:AddButton({
 	Image = "rbxassetid://4483345998",
 	Time = 20
 })
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1, 10000000000000000000000000, 1)
   	end    
 })
 Tab:AddButton({
@@ -37,12 +38,14 @@ Tab:AddButton({
 	Image = "rbxassetid://4483345998",
 	Time = 20
 })
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1, 10000000000000000000000000, 1)
   	end    
 })
 Tab:AddButton({
 	Name = "your father and mother should beat you to death",
 	Callback = function()
-	end 
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1, 10000000000000000000000000, 1)	
+end 		
 }) 
 Tab:AddButton({
 	Name = "you should be in jail",
