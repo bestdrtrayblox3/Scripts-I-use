@@ -15,7 +15,7 @@ Tab:AddButton({
 	Time = 20
 })
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1, 10000000000000000000000000, 1)
-  	end    
+end    
 })
 Tab:AddButton({
 	Name = "kill yourself",
@@ -27,7 +27,7 @@ Tab:AddButton({
 	Time = 20
 })
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1, 10000000000000000000000000, 1)
-  	end    
+end    
 })
 Tab:AddButton({
 	Name = "kys you trans mocker",
@@ -39,7 +39,7 @@ Tab:AddButton({
 	Time = 20
 })
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1, 10000000000000000000000000, 1)
-  	end    
+end    
 })
 Tab:AddButton({
 	Name = "your father and mother should beat you to death",
@@ -56,7 +56,6 @@ Tab:AddButton({
 	Image = "rbxassetid://4483345998",
 	Time = 20
 })
-  	end    
 })
 Tab:AddButton({
 	Name = "I hope you become homeless",
@@ -67,14 +66,13 @@ Tab:AddButton({
 	Image = "rbxassetid://4483345998",
 	Time = 20
 })
-  	end    
+end    
 })
 Tab:AddButton({
 	Name = "I hoped you get kidnapped and raped",
 	Callback = function()
-  	end    
+end    
 })
-
 Tab:AddButton({
 	Name = "you should be banned from the internet and real life",
 	Callback = function()
@@ -84,7 +82,7 @@ Tab:AddButton({
 	Image = "rbxassetid://4483345998",
 	Time = 20
 })
-  	end    
+end    
 })
 Tab:AddButton({
 	Name = "we are watching",
@@ -105,21 +103,22 @@ local Tab = Window:MakeTab({
 Tab:AddButton({
 	Name = "I hope you drown in pee",
 	Callback = function()
-  	end    
+end    
 })
 Tab:AddButton({
 	Name = "go drink bleach and acid",
 	Callback = function()
-  	end    
+end    
 })
 Tab:AddButton({
 	Name = "you should be beaten and fed to your dogs",
 	Callback = function()
+end
+})
 Tab:AddButton({
 	Name = "I hope your house gets lit on fire",
 	Callback = function()
-end 
-  	end    
+end    
 })
 Tab:AddButton({
 	Name = "go get gang banged by your family",
